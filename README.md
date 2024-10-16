@@ -21,3 +21,5 @@ Articles Used:<br>
 'The Outsiders by SE Hinton- review' by Hemma https://www.theguardian.com/childrens-books-site/2015/sep/23/the-outsiders-s-e-hinton-review<br>
 'Book Review: The Outsiders' by Sophie L. https://ppld.org/book-reviews/outsiders-0<br>
 ''The Outsiders': 40 Years Later' by Dale Peck https://www.nytimes.com/2007/09/23/books/review/Peck-t.html<br>
+
+Code Used:
