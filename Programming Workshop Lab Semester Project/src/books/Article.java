@@ -16,6 +16,7 @@ public class Article {
         this.stopWords = stopWords;
     }
     
+    //reads the originial text file that has no changes 
     public String readOriginalText() throws FileNotFoundException{
         File file = new File(articlePath);
         Scanner sc = new Scanner(file);
