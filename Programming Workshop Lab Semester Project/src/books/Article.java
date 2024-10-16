@@ -58,7 +58,7 @@ public class Article {
         System.out.println("Total sentences: " +sentenceCount);
     }
 
-    //calculates the frequence that a word is present in the cleaned article
+    //calculates the frequency that a word is present in the cleaned article
     public void calculateWordFrequency(ArrayList<String> cleanWords){
         ArrayList<String> uniqueWords = new ArrayList<>();
         ArrayList<Integer> frequencies = new ArrayList<>();
