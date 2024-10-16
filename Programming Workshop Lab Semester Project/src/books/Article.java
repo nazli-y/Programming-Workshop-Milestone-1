@@ -29,14 +29,14 @@ public class Article {
         return originalText.toString();
     }
 
-
+    //reads the text file into an array after removing all punctuation, symbols, and numbers
     public String[] readCleanText(String originalText){
         String cleanData = originalText.replaceAll("'","").replaceAll("[^a-zA-Z']", " ");
         String[] words = cleanData.toLowerCase().trim().split("\\s+");
         return words;
     }
 
-
+    //removes words in stopwords text file from the cleaned article array
     public ArrayList<String> removeStopWords(String[] words){
         ArrayList<String> cleanWords = new ArrayList<>();
         for(String word: words){
@@ -47,8 +47,9 @@ public class Article {
         return cleanWords;
     }
 
-
+    //calculates basic statistics like word count and sentence count in the cleaned article
     public void calculateStatistics(ArrayList<String> cleanWords, String originalText){
+        //prints the statistics
         System.out.println();
         System.out.println("Basic Statistics for: " + articlePath);
         int totalWords = cleanWords.size();
@@ -57,7 +58,7 @@ public class Article {
         System.out.println("Total sentences: " +sentenceCount);
     }
 
-
+    //calculates the frequence that a word is present in the cleaned article
     public void calculateWordFrequency(ArrayList<String> cleanWords){
         ArrayList<String> uniqueWords = new ArrayList<>();
         ArrayList<Integer> frequencies = new ArrayList<>();
@@ -77,7 +78,7 @@ public class Article {
             }
         }
 
-        //ranking in descending order using bubble sort
+        //ranks the frequencies in descending order using bubble sort
         for(int i = 0; i < frequencies.size()-1; i++){
             for(int j = i+1; j < frequencies.size(); j++){
                 if(frequencies.get(i) < frequencies.get(j)){
@@ -92,7 +93,7 @@ public class Article {
             }
         }
 
-        //print word frequencies
+        //prints word frequencies
         System.out.println();
         System.out.println("Word Frequencies for: " + articlePath);
         for(int i = 0; i < uniqueWords.size(); i++){
