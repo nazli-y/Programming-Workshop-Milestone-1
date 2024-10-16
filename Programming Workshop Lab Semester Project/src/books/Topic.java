@@ -8,11 +8,13 @@ public class Topic {
     private String topicName;
     private ArrayList<Article> articles;
 
+    //constructor
     public Topic(String topicName, ArrayList<Article> articles){
         this.topicName = topicName;
         this.articles = articles;
     }
 
+    //goes through each of the articles present
     public void processArticles() throws FileNotFoundException{
         System.out.println();
         System.out.println("Processing topic: " + topicName);
