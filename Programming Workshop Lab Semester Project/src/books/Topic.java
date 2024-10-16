@@ -14,7 +14,7 @@ public class Topic {
         this.articles = articles;
     }
 
-    //goes through each of the articles present
+    //goes through each of the articles present using the information gained from the Library.java class
     public void processArticles() throws FileNotFoundException{
         System.out.println();
         System.out.println("Processing topic: " + topicName);
