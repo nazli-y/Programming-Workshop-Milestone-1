@@ -5,21 +5,21 @@ import java.util.ArrayList;
 import java.io.File;
 import java.util.Scanner;
 
-public class Library {
+public class Library { //initializes libraryPath
     private String libraryPath;
 
     //constructor
     public Library(String libraryPath){
         this.libraryPath = libraryPath;
     }
-
+    // retrieves the three topics 
     public ArrayList<Topic> getTopics() throws FileNotFoundException{
         ArrayList<Topic> topics = new ArrayList<>();
-        ArrayList<String> stopWords = getStopWords();
+        ArrayList<String> stopWords = getStopWords(); //calls the method getStopWords() to retrieve the stopwords and store them in an array
         File libraryDirectory = new File(libraryPath);
         File[] topicDirectories = libraryDirectory.listFiles(File::isDirectory);
 
-        if(topicDirectories != null){
+        if(topicDirectories != null){ 
             for(File topicDirectory : topicDirectories){
                 String topicName = topicDirectory.getName();
                 ArrayList<Article> articles = new ArrayList<>();
