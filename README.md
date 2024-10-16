@@ -2,8 +2,8 @@ Programming Workshop Lab Semester Project- Milestone 1 <br>
 
 Credits:<br>
 Authors:<br>
-Mariella Aletti,<br>
-Sofia Morgillo,<br>
+Mariella Aletti<br>
+Sofia Morgillo<br>
 Nazli Yaglidere<br>
 
 Articles Used:<br>
