@@ -16,7 +16,7 @@ public class Article {
         this.stopWords = stopWords;
     }
     
-    //reads the originial text file that has no changes 
+    //reads the originial text file with all words and punctuation
     public String readOriginalText() throws FileNotFoundException{
         File file = new File(articlePath);
         Scanner sc = new Scanner(file);
@@ -47,7 +47,7 @@ public class Article {
         return cleanWords;
     }
 
-    //calculates basic statistics like word count and sentence count in the cleaned article
+    //calculates basic statistics like word count and sentence count in the array of cleaned words
     public void calculateStatistics(ArrayList<String> cleanWords, String originalText){
         //prints the statistics
         System.out.println();
@@ -63,7 +63,7 @@ public class Article {
         ArrayList<String> uniqueWords = new ArrayList<>();
         ArrayList<Integer> frequencies = new ArrayList<>();
 
-        Iterator<String> iterator = cleanWords.iterator();
+        Iterator<String> iterator = cleanWords.iterator(); 
 
         while(iterator.hasNext()){
             String word = iterator.next();
