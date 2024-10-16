@@ -36,9 +36,9 @@ public class Library {
         }
         return topics;
     }
-
+    //retrieves the stop words and creates an ArrayList with the words
     public ArrayList<String> getStopWords() throws FileNotFoundException{
-        File file = new File(libraryPath+"\\stopwords.txt");
+        File file = new File(libraryPath + "\\stopwords.txt");  //uses the absolute libray path to access the stopwords.txt path
         Scanner sc = new Scanner(file);
         ArrayList<String> stopWords = new ArrayList<>();
         while (sc.hasNextLine()){
