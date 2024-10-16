@@ -1,7 +1,7 @@
 Programming Workshop Lab Semester Project- Milestone 1 <br>
 
 Purpose:<br>
-The purpose of this project is to process text articles to calculate basic statistics and analyze the sentiment. The goal for milestone 1 is being able to process the article, remove stop words and rank words by frequencies. To do this we created 4 classes, an Article class to read the file, store the words to an arraylist and clean the data and process and remove the stop words, count the words and sort them by frequency; a Topic class which calls the functions in the Article class for each article in a topic; and a Libray class to process each topic.<br>
+The purpose of this project is to process text articles to calculate basic statistics and analyze the sentiment. The goal for milestone 1 is being able to process the article, remove stop words and rank words by frequencies. To do this we created 4 classes, an Article class to read the file, store the words to an arraylist and clean the data and process and remove the stop words, count the words and sort them by frequency; a Topic class which calls the functions in the Article class for each article in a topic; and a Libray class to processes each topic.<br>
 
 Credits:<br>
 Authors:<br>
