@@ -12,18 +12,22 @@ public class Library { //initializes libraryPath
     public Library(String libraryPath){
         this.libraryPath = libraryPath;
     }
-    // retrieves the three topics 
+    
+    // retrieves the three topics from the library folder
     public ArrayList<Topic> getTopics() throws FileNotFoundException{
         ArrayList<Topic> topics = new ArrayList<>();
         ArrayList<String> stopWords = getStopWords(); //calls the method getStopWords() to retrieve the stopwords and store them in an array
         File libraryDirectory = new File(libraryPath);
         File[] topicDirectories = libraryDirectory.listFiles(File::isDirectory);
 
+        //checks through the topics in the library directory to see if they exist and if they do
+        //they assign its name and put it into articleFiles
         if(topicDirectories != null){ 
             for(File topicDirectory : topicDirectories){
                 String topicName = topicDirectory.getName();
                 ArrayList<Article> articles = new ArrayList<>();
 
+                //gets the files in each topic and adds it to articleFiles
                 File[] articleFiles = topicDirectory.listFiles((dir, name) -> name.endsWith(".txt"));
                 if(articleFiles != null){
                     for(File articleFile : articleFiles){
@@ -36,7 +40,8 @@ public class Library { //initializes libraryPath
         }
         return topics;
     }
-    //retrieves the stop words and creates an ArrayList with the words
+    
+    //retrieves the stop words file and creates an ArrayList with the words
     public ArrayList<String> getStopWords() throws FileNotFoundException{
         File file = new File(libraryPath + "\\stopwords.txt");  //uses the absolute libray path to access the stopwords.txt path
         Scanner sc = new Scanner(file);
