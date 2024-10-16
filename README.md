@@ -22,7 +22,7 @@ Articles Used:<br>
 'Book Review: The Outsiders' by Sophie L. https://ppld.org/book-reviews/outsiders-0<br>
 ''The Outsiders': 40 Years Later' by Dale Peck https://www.nytimes.com/2007/09/23/books/review/Peck-t.html<br>
 
-Code Used:
+Code Used:<br>
 Scanner class to read file https://www.geeksforgeeks.org/different-ways-reading-text-file-java/<br>
 Split article text to arraylist https://www.w3schools.com/java/ref_string_split.asp<br>
 Bubble sort 'CountWords1.java'
