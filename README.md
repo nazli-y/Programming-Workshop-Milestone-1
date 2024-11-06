@@ -27,7 +27,12 @@ Code/Files Used:<br>
 Scanner class to read file https://www.geeksforgeeks.org/different-ways-reading-text-file-java/<br>
 Split article text to arraylist https://www.w3schools.com/java/ref_string_split.asp<br>
 Bubble sort 'CountWords1.java'<br>
-Stop words 'stopwords.txt'<br>
-Positive words 'positive-words.txt'<br>
-Negative words 'negative-words.txt;<br>
+Minqing Hu and Bing Liu. "Mining and Summarizing Customer Reviews."
+ Proceedings of the ACM SIGKDD International Conference on Knowledge
+ Discovery and Data Mining (KDD-2004), Aug 22-25, 2004, Seattle,
+ Washington, USA <br>
+Minqing Hu and Bing Liu. "Mining and Summarizing Customer Reviews."
+ Proceedings of the ACM SIGKDD International Conference on Knowledge
+ Discovery and Data Mining (KDD-2004), Aug 22-25, 2004, Seattle,
+ Washington, USA <br>
 
