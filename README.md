@@ -26,8 +26,8 @@ Articles Used:<br>
 Code/Files Used:<br>
 Scanner class to read file https://www.geeksforgeeks.org/different-ways-reading-text-file-java/<br>
 Split article text to arraylist https://www.w3schools.com/java/ref_string_split.asp<br>
-Bubble sort 'CountWords1.java'
-Stop words 'stopwords.txt'
-Positive words 'positive-words.txt'
-Negative words 'negative-words.txt;
+Bubble sort 'CountWords1.java'<br>
+Stop words 'stopwords.txt'<br>
+Positive words 'positive-words.txt'<br>
+Negative words 'negative-words.txt;<br>
 
