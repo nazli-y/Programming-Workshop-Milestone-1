@@ -32,3 +32,5 @@ Minqing Hu and Bing Liu. "Mining and Summarizing Customer Reviews."
  Discovery and Data Mining (KDD-2004), Aug 22-25, 2004, Seattle,
  Washington, USA <br>
 
+ UML Diagram:
+
