@@ -34,7 +34,7 @@ Minqing Hu and Bing Liu. "Mining and Summarizing Customer Reviews."
 
  UML Diagram:
  <br>
- <img height="700" src="UML_Milestone2.jpg" />
+ <img height="500" src="UML_Milestone2.jpg" />
  </br>
  
 
