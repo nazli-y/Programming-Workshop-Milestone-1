@@ -37,5 +37,10 @@ Postive and negative words list for determing the sentiment of the articles: <br
  <br>
  <img height="500" src="UML_Milestone2.jpg" />
  </br>
+
+ Screenshot of testing results:
+ <br>
+ <img height="500" src="PW-Semester Project Milestone 2 Output.png" />
+ </br>
  
 
