@@ -33,6 +33,15 @@ Postive and negative words list for determing the sentiment of the articles: <br
  Discovery and Data Mining (KDD-2004), Aug 22-25, 2004, Seattle,
  Washington, USA <br>
 
+Refactoring Suggestions: 
+<br>
+The original calculateWordFrequency method in the Article class works to calculate the frequency that a word is present in a cleaned and processed article that has already removed stop words. This method determines the frequencies of each word and prints them in ranked order from most to least frequent for each article. It also determines and prints the word that was repeated most and the amount of times. It avoids complex structures and is straightforward for both developers and the audience to use and understand.
+
+For the calculateWordFrequency method to be improved, it can be refactored to have three separate methods, each with one specific task. Since the method as a whole can calculate the ranking, frequency, and most repeated word, it can also be broken up so each of these tasks have their own method. Refactoring can also increase modularization and strengthen cohesion. This would improve readability and understanding by modularizing and having better organization to help maintain easier. 
+
+Hashmap may be a better option to calculateWordFrequency as it would use key and value pairs where the key is the word and the value is the integer of frequency. Using hashmap can allow quick updates and allow possible manual input when the application needs to be further updated to achieve more goals. It can also be helpful when new features like searching for a word and its frequency are implemented in the application. 
+</br>
+
  UML Diagram:
  <br>
  <img height="500" src="UML_Milestone_3.jpg" />
