@@ -35,7 +35,7 @@ Postive and negative words list for determing the sentiment of the articles: <br
 
  UML Diagram:
  <br>
- <img height="500" src="UML_Milestone2.jpg" />
+ <img height="500" src="UML_Milestone_3.jpg" />
  </br>
 
  Screenshot of testing results:
