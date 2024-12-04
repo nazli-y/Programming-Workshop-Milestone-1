@@ -80,6 +80,7 @@ public class Library { //initializes libraryPath
         return negativeWords;
     }
 
+    //adds a new folder to the librarypath of this project directory
     public void addNewTopic(String newTopicName) throws IOException {
         // Create the new topic directory
         File newTopicDir = new File(libraryPath + "/" + newTopicName);
@@ -92,7 +93,7 @@ public class Library { //initializes libraryPath
         }
     }
 
-
+    //moves a file input from user to a new folder location
     void moveArticleToTopic(String newTopicName, String articlePath) throws IOException {
         File articleFile = new File(articlePath);
         File newLocation = new File(libraryPath + "/" + newTopicName + "/" + articleFile.getName());
