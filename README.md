@@ -1,7 +1,7 @@
 Programming Workshop Lab Semester Project- Milestone 3 <br>
 
 Purpose:<br>
-This purpose of this application is to allow users to process their text article of choice by calculating basic statistics, the word frequency and analyzing the sentiment.<br>
+The purpose of this application is to allow users to process their text article of choice by calculating basic statistics, the word frequency and analyzing the sentiment.<br>
 
 The goal for milestone 1 is being able to process the article, remove stop words and rank words by frequencies. To do this we created 4 classes, an Article class to read the file, store the words to an arraylist and clean the data and process and remove the stop words, count the words and sort them by frequency; a Topic class which calls the functions in the Article class for each article in a topic; and a Library class to processes each topic.<br>
 
@@ -55,20 +55,24 @@ Hashmap may be a better option to calculateWordFrequency as it would use key and
  Screenshot of testing results:
  <br>
  Case 1 Output:
+ <img height="500" src="Programming Lab Milestone 3 Case 1.png"/>
  <br>
  Case 2 Output:
+ <img height="500" src="Programming Lab Milestone 3 Case 2.png"/>
  <br>
  Case 3 Output:
+ <img height="500" src="Programming Lab Milestone 3 Case 3.png"/>
  <br>
  Case 4 Output:
+ <img height="500" src="Programming Lab Milestone 3 Case 4.png"/>
  <br>
  Case 5 Output:
+ <img height="500" src="Programming Lab Milestone 3 Case 5.png"/>
  <br>
  Case 6 Output:
+ <img height="500" src="Programming Lab Milestone 3 Case 6.png"/>
  <br>
- <img height="500" src="" />
- <br>
-  <br>
- <img height="500" src="" />
+ Case 7 output:
+ <img height="500" src="Programming Lab Milestone 3 Case 7.png"/>
  <br>
 
