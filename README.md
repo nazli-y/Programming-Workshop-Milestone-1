@@ -54,9 +54,21 @@ Hashmap may be a better option to calculateWordFrequency as it would use key and
 
  Screenshot of testing results:
  <br>
- <img height="500" src="Programming Lab Milestone 3 Output 1.png" />
+ Case 1 Output:
+ <br>
+ Case 2 Output:
+ <br>
+ Case 3 Output:
+ <br>
+ Case 4 Output:
+ <br>
+ Case 5 Output:
+ <br>
+ Case 6 Output:
+ <br>
+ <img height="500" src="" />
  <br>
   <br>
- <img height="500" src="Programming Lab Milestone 3 Output 2.png" />
+ <img height="500" src="" />
  <br>
 
