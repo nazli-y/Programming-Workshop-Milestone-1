@@ -13,7 +13,7 @@ public class Topic {
         this.topicName = topicName;
         this.articles = articles;
     }
-
+    //topicName getter
     public String getName(){
         return topicName;
     }
